@@ -10,7 +10,29 @@
             .Text-Ash{color:rgba(3, 7, 18, 0.6);}
             .text-bg-Ash{background-color:rgba(3, 7, 18, 0.05);}
             .spcb2in{justify-content: space-between;}
-            .spcevnly{justify-content: space-between;}
+            .spcevnly{justify-content: space-evenly;}
+
+
+            /* chat-gpt */
+            /* .bus {
+            display: grid;
+            grid-template-columns: repeat(4, 50px);
+            grid-gap: 10px;
+        }
+        .seat {
+            width: 50%;
+            height: 50px;
+            background-color: lightgray;
+            border: 1px solid #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        .seat.selected {
+            background-color: green;
+        } */
+            /* chat-gpt */
     </style>
     
 </head>
@@ -117,7 +139,7 @@
                                                                             
                                                                             
 
-                                                                              <!-- <div class="flex bg-red-300"><img src="" alt="" srcset="">
+                                                                             <!-- <div class="flex bg-red-300"><img src="" alt="" srcset="">
                                                                               </div> -->
                                                                             
                                                                   </div> 
@@ -154,8 +176,9 @@
                                                   </div>
                                                   <!-- Seat Price From to End -->
                   <!-- Seat Plan start-->
-                  <div class="bg-yellow-400 m-32 my-10 rounded-3xl p-9">
-                    <div id="Left-side_select-seat" class="">
+                  <div class="bg-yellow-400 m-32 my-10 rounded-3xl p-9 flex spcb2in ">
+                          <!--  Select Seat left side -->
+                    <div id="Left-side_select-seat" class="w-7/12 px-2 pr-6 border-dashed border-2 border-[#0307123e] border-l-0 border-y-0">
                       <h1 class="text-2xl font-semibold py-2 border-dashed border border-[#0307123e] border-t-0 border-x-0">Select Your Seat </h1>
                           <div class="items-center flex spcb2in py-2 border-dashed border border-[#0307123e] border-t-0 border-x-0">
                                   <div class="flex justify-center"><img src="./images/seat-gray.png" alt="" srcset=""><p class="Text-Ash font-medium text-sm ml-2">Available</p></div>
@@ -165,24 +188,109 @@
                           <div class="flex justify-end">
                             <div class="bg-[#0307121f]  rounded-xl w-20 h-11 flex content-center items-center justify-center my-4"><img src="./images/wheel (1).png" alt="" srcset=""></div>
                         </div>
-                          
 
+
+
+
+                        <div class="flex spcevnly"> <!--jar vetor 5 ta column thakbo-->
+
+
+                                    <div> <!--jar vetor 1 ta column thakbo a2z -->
+                                            <div id="A" class=" Text-Ash py-2 font-medium my-2 " >A</div>
+                                            <div id="B" class=" Text-Ash py-2 font-medium my-2 " >B</div>
+                                            <div id="C" class=" Text-Ash py-2 font-medium my-2 " >C</div>
+                                            <div id="D" class=" Text-Ash py-2 font-medium my-2 " >D</div>
+                                            <div id="E" class=" Text-Ash py-2 font-medium my-2 " >E</div>
+                                            <div id="F" class=" Text-Ash py-2 font-medium my-2 " >F</div>
+                                            <div id="G" class=" Text-Ash py-2 font-medium my-2 " >G</div>
+                                            <div id="H" class=" Text-Ash py-2 font-medium my-2 " >H</div>
+                                            <div id="I" class=" Text-Ash py-2 font-medium my-2 " >I</div>
+                                            <div id="J" class=" Text-Ash py-2 font-medium my-2 " >J</div>
+                                    </div>
+
+
+
+                               
+
+                                <div class="text-center"> <!--jar vetor 1 ta column thakbo A1toZ1 -->
+                                  
+                                  <div id="A1" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">A1</div>
+                                  <div id="B1" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">B1</div>
+                                  <div id="C1" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">C1</div>
+                                  <div id="D1" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">D1</div>
+                                  <div id="E1" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">E1</div>
+                                  <div id="F1" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">F1</div>
+                                  <div id="G1" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">G1</div>
+                                  <div id="H1" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">H1</div>
+                                  <div id="I1" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">I1</div>
+                                  <div id="J1" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">J1</div>
+
+                                </div>
+
+                              
+
+
+
+                                    <div> <!--jar vetor 1 ta column thakbo A2toZ2 -->
+                                      <div id="A2" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">A2</div>
+                                      <div id="B2" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">B2</div>
+                                      <div id="C2" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">C2</div>
+                                      <div id="D2" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">D2</div>
+                                      <div id="E2" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">E2</div>
+                                      <div id="F2" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">F2</div>
+                                      <div id="G2" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">G2</div>
+                                      <div id="H2" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">H2</div>
+                                      <div id="I2" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">I2</div>
+                                      <div id="J2" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">J2</div>
+                                    </div>
+
+
+                                    <div> <!--jar vetor 1 ta column thakbo A3toZ3 -->
+                                      <div id="A3" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">A3</div>
+                                      <div id="B3" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">B3</div>
+                                      <div id="C3" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">C3</div>
+                                      <div id="D3" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">D3</div>
+                                      <div id="E3" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">E3</div>
+                                      <div id="F3" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">F3</div>
+                                      <div id="G3" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">G3</div>
+                                      <div id="H3" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">H3</div>
+                                      <div id="I3" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">I3</div>
+                                      <div id="J3" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">J3</div>
+                                    </div>
+
+
+                                    <div>  <!--jar vetor 1 ta column thakbo A4toZ4 -->
+                                      <div id="A4" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">A4</div>
+                                      <div id="B4" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">B4</div>
+                                      <div id="C4" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">C4</div>
+                                      <div id="D4" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">D4</div>
+                                      <div id="E4" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">E4</div>
+                                      <div id="F4" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">F4</div>
+                                      <div id="G4" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">G4</div>
+                                      <div id="H4" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">H4</div>
+                                      <div id="I4" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">I4</div>
+                                      <div id="J4" class=" Text-Ash font-medium my-2 rounded-xl py-2 px-7 bg-[#F7F8F8]   ">J4</div>
+                                    </div> 
+
+                        </div>
+
+                        
                     </div>
 
 
 
 
 
-
-                    <div id="Rihgt-side_select-seat-Filter" class=""></div>
+                              <!--  Select Seat Right side -->
+                        <div id="Rihgt-side_select-seat-Filter" class="w-5/12 pl-6">
+                          <h1 class="text-2xl font-semibold py-2 border-dashed border border-[#0307123e] border-t-0 border-x-0">Select Your Seat </h1>
+                        </div>
                   </div>
                   <!-- Seat Plan End-->                                     
         </div>
-        
-        
 
     </main>
-
+                  
     <footer>
 
     </footer>
