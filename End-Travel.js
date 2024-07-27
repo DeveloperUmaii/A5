@@ -47,6 +47,73 @@ function   clickOnSeatD1 (){
 //
 
 
+function   clickOnSeatE1 (){
+    removebgClour   ('E1')
+    setbgcolor      ('E1')
+    removeTxtClour  ('E1')
+    setTxtColor     ('E1')
+    
+}
+
+//
+
+
+function   clickOnSeatF1 (){
+    removebgClour   ('F1')
+    setbgcolor      ('F1')
+    removeTxtClour  ('F1')
+    setTxtColor     ('F1')
+    
+}
+
+//
+
+
+function   clickOnSeatG1 (){
+    removebgClour   ('G1')
+    setbgcolor      ('G1')
+    removeTxtClour  ('G1')
+    setTxtColor     ('G1')
+    
+}
+
+//
+
+
+function   clickOnSeatH1 (){
+    removebgClour   ('H1')
+    setbgcolor      ('H1')
+    removeTxtClour  ('H1')
+    setTxtColor     ('H1')
+    
+}
+
+//
+
+
+function   clickOnSeatI1 (){
+    removebgClour   ('I1')
+    setbgcolor      ('I1')
+    removeTxtClour  ('I1')
+    setTxtColor     ('I1')
+    
+}
+
+//
+
+
+function   clickOnSeatJ1 (){
+    removebgClour   ('J1')
+    setbgcolor      ('J1')
+    removeTxtClour  ('J1')
+    setTxtColor     ('J1')
+    
+}
+
+
+//2ND COLUMN SEAT 2
+
+
 function   clickOnSeatA2 (){
     removebgClour   ('A2')
     setbgcolor      ('A2')
@@ -78,8 +145,6 @@ function   clickOnSeatC2 (){
     setTxtColor     ('C2')
     
 }
-
-
 //
 
 
@@ -93,6 +158,85 @@ function   clickOnSeatD2 (){
 
 
 //
+
+
+function   clickOnSeatD3 (){
+    removebgClour   ('D3')
+    setbgcolor      ('D3')
+    removeTxtClour  ('D3')
+    setTxtColor     ('D3')
+    
+}
+
+
+//
+
+
+function   clickOnSeatE2 (){
+    removebgClour   ('E2')
+    setbgcolor      ('E2')
+    removeTxtClour  ('E2')
+    setTxtColor     ('E2')
+    
+}
+
+//
+
+
+function   clickOnSeatF2 (){
+    removebgClour   ('F2')
+    setbgcolor      ('F2')
+    removeTxtClour  ('F2')
+    setTxtColor     ('F2')
+    
+}
+
+//
+
+
+function   clickOnSeatG2 (){
+    removebgClour   ('G2')
+    setbgcolor      ('G2')
+    removeTxtClour  ('G2')
+    setTxtColor     ('G2')
+    
+}
+
+//
+
+
+function   clickOnSeatH2 (){
+    removebgClour   ('H2')
+    setbgcolor      ('H2')
+    removeTxtClour  ('H2')
+    setTxtColor     ('H2')
+    
+}
+
+//
+
+
+function   clickOnSeatI2 (){
+    removebgClour   ('I2')
+    setbgcolor      ('I2')
+    removeTxtClour  ('I2')
+    setTxtColor     ('I2')
+    
+}
+
+//
+
+
+function   clickOnSeatJ2 (){
+    removebgClour   ('J2')
+    setbgcolor      ('J2')
+    removeTxtClour  ('J2')
+    setTxtColor     ('J2')
+    
+}
+
+
+//3RD COLUMN SEAT 3
 
 
 function   clickOnSeatA3 (){
@@ -143,16 +287,71 @@ function   clickOnSeatD3 (){
 //
 
 
-function   clickOnSeatA4 (){
-    removebgClour   ('A4')
-    setbgcolor      ('A4')
-    removeTxtClour  ('A4')
-    setTxtColor     ('A4')
+function   clickOnSeatE3 (){
+    removebgClour   ('E3')
+    setbgcolor      ('E3')
+    removeTxtClour  ('E3')
+    setTxtColor     ('E3')
+    
+}
+
+//
+
+
+function   clickOnSeatF3 (){
+    removebgClour   ('F3')
+    setbgcolor      ('F3')
+    removeTxtClour  ('F3')
+    setTxtColor     ('F3')
+    
+}
+
+//
+
+
+function   clickOnSeatG3 (){
+    removebgClour   ('G3')
+    setbgcolor      ('G3')
+    removeTxtClour  ('G3')
+    setTxtColor     ('G3')
+    
+}
+
+//
+
+
+function   clickOnSeatH3 (){
+    removebgClour   ('H3')
+    setbgcolor      ('H3')
+    removeTxtClour  ('H3')
+    setTxtColor     ('H3')
+    
+}
+
+//
+
+
+function   clickOnSeatI3 (){
+    removebgClour   ('I3')
+    setbgcolor      ('I3')
+    removeTxtClour  ('I3')
+    setTxtColor     ('I3')
+    
+}
+
+//
+
+
+function   clickOnSeatJ3 (){
+    removebgClour   ('J3')
+    setbgcolor      ('J3')
+    removeTxtClour  ('J3')
+    setTxtColor     ('J3')
     
 }
 
 
-//
+//4TH COLUMN SEAT 4
 
 
 function   clickOnSeatA4 (){
@@ -203,196 +402,69 @@ function   clickOnSeatD4 (){
 //
 
 
-function   clickOnSeatA5 (){
-    removebgClour   ('A5')
-    setbgcolor      ('A5')
-    removeTxtClour  ('A5')
-    setTxtColor     ('A5')
+function   clickOnSeatE4 (){
+    removebgClour   ('E4')
+    setbgcolor      ('E4')
+    removeTxtClour  ('E4')
+    setTxtColor     ('E4')
     
 }
-
 
 //
 
 
-function   clickOnSeatB5 (){
-    removebgClour   ('B5')
-    setbgcolor      ('B5')
-    removeTxtClour  ('B5')
-    setTxtColor     ('B5')
+function   clickOnSeatF4 (){
+    removebgClour   ('F4')
+    setbgcolor      ('F4')
+    removeTxtClour  ('F4')
+    setTxtColor     ('F4')
     
 }
-
 
 //
 
 
-function   clickOnSeatC5 (){
-    removebgClour   ('C5')
-    setbgcolor      ('C5')
-    removeTxtClour  ('C5')
-    setTxtColor     ('C5')
+function   clickOnSeatG4 (){
+    removebgClour   ('G4')
+    setbgcolor      ('G4')
+    removeTxtClour  ('G4')
+    setTxtColor     ('G4')
     
 }
-
 
 //
 
 
-function   clickOnSeatD5 (){
-    removebgClour   ('D5')
-    setbgcolor      ('D5')
-    removeTxtClour  ('D5')
-    setTxtColor     ('D5')
+function   clickOnSeatH4 (){
+    removebgClour   ('H4')
+    setbgcolor      ('H4')
+    removeTxtClour  ('H4')
+    setTxtColor     ('H4')
     
 }
-
 
 //
 
 
-function   clickOnSeatE5 (){
-    removebgClour   ('E5')
-    setbgcolor      ('E5')
-    removeTxtClour  ('E5')
-    setTxtColor     ('E5')
+function   clickOnSeatI4 (){
+    removebgClour   ('I4')
+    setbgcolor      ('I4')
+    removeTxtClour  ('I4')
+    setTxtColor     ('I4')
     
 }
-
 
 //
 
 
-function   clickOnSeatB1 (){
-    removebgClour   ('B1')
-    setbgcolor      ('B1')
-    removeTxtClour  ('B1')
-    setTxtColor     ('B1')
+function   clickOnSeatJ4 (){
+    removebgClour   ('J4')
+    setbgcolor      ('J4')
+    removeTxtClour  ('J4')
+    setTxtColor     ('J4')
     
 }
 
-
-//
-
-
-function   clickOnSeatB1 (){
-    removebgClour   ('B1')
-    setbgcolor      ('B1')
-    removeTxtClour  ('B1')
-    setTxtColor     ('B1')
-    
-}
-
-
-//
-
-
-function   clickOnSeatB1 (){
-    removebgClour   ('B1')
-    setbgcolor      ('B1')
-    removeTxtClour  ('B1')
-    setTxtColor     ('B1')
-    
-}
-
-
-//
-
-
-function   clickOnSeatB1 (){
-    removebgClour   ('B1')
-    setbgcolor      ('B1')
-    removeTxtClour  ('B1')
-    setTxtColor     ('B1')
-    
-}
-
-
-//
-
-
-function   clickOnSeatB1 (){
-    removebgClour   ('B1')
-    setbgcolor      ('B1')
-    removeTxtClour  ('B1')
-    setTxtColor     ('B1')
-    
-}
-
-
-//
-
-
-function   clickOnSeatB1 (){
-    removebgClour   ('B1')
-    setbgcolor      ('B1')
-    removeTxtClour  ('B1')
-    setTxtColor     ('B1')
-    
-}
-
-
-//
-
-
-function   clickOnSeatB1 (){
-    removebgClour   ('B1')
-    setbgcolor      ('B1')
-    removeTxtClour  ('B1')
-    setTxtColor     ('B1')
-    
-}
-
-
-//
-
-
-function   clickOnSeatB1 (){
-    removebgClour   ('B1')
-    setbgcolor      ('B1')
-    removeTxtClour  ('B1')
-    setTxtColor     ('B1')
-    
-}
-
-
-//
-
-
-function   clickOnSeatB1 (){
-    removebgClour   ('B1')
-    setbgcolor      ('B1')
-    removeTxtClour  ('B1')
-    setTxtColor     ('B1')
-    
-}
-
-
-//
-
-
-function   clickOnSeatB1 (){
-    removebgClour   ('B1')
-    setbgcolor      ('B1')
-    removeTxtClour  ('B1')
-    setTxtColor     ('B1')
-    
-}
-
-
-//
-
-
-function   clickOnSeatB1 (){
-    removebgClour   ('B1')
-    setbgcolor      ('B1')
-    removeTxtClour  ('B1')
-    setTxtColor     ('B1')
-    
-}
-
-
-//
 
 
 
